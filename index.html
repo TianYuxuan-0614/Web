@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+        *{
+        	padding:0;
+        	margin:0;
+        }
+
+        	.all{
+        		width:1920px;
+        		height:2049px;
+        		background-color:#F0F0F0;
+        	}
+        	.nav .xueli1{
+        		width:170px;
+				height:39px;
+				font-size:40px;
+				font-family:Microsoft YaHei;
+				font-weight:bold;
+				color:#00A4FF;
+				padding-top:33px;
+				padding-left:369px;
+				float:left;
+
+        	}
+        	.first{
+        		text-decoration:none;
+        		color:black;
+
+        	}
+        	.nav li:hover>a{
+        		color:black;
+        		font-size:18px;
+        		border-bottom:2px solid #00A4FF;
+        		padding-bottom:5px;
+        	}
+
+            .nav .group{
+
+            	width:241px;
+				height:18px;
+            	font-size:18px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				padding-top:42px;
+				padding-left:79px;
+				color:rgba(5,5,5,1);
+				text-decoration:none;				
+				list-style-type:none;
+				float:left;
+            }
+            .nav li{float:left;}
+            
+            .nav .group .xueli3{
+            	padding-left:42px;
+            	padding-right:42px;
+ 				
+            }
+
+            .nav .form .reash{
+            	width:361px;
+				height:38px;
+				border: 1px solid rgba(0, 164, 255, 1);
+				margin-left:187px;
+				margin-top:31px;
+				float:left;
+            }
+            .nav .form .submit{
+            	width:50px;
+				height:40px;
+				border: 1px solid rgb(0,164,255,1);
+				background:rgba(0,164,255,1) url(img/fa-search.png) no-repeat center center;
+				margin-top:31px;
+
+				float:left;
+				cursor: pointer;
+				vertical-align:bottom;
+            }
+            input::-webkit-input-placeholder{
+            
+				
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(191,191,191,1);
+				line-height:31px;
+				padding-left: 19px;
+				padding-top:44px;
+            }
+            
+            .nav .personal{
+            	
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:#666666;
+				padding-top:44px;
+				padding-left:31px;
+				float:left;
+            }
+
+            .picture{
+            	position:relative;
+            	
+            }
+
+            .picture .background{
+            	
+            	position:absolute;
+            	top:101px;
+            	left:390px;
+
+            }
+            .picture .background1{
+            	width:390px;
+				height:420px;
+				background:rgba(28,3,108,1);
+				position:absolute;
+				top:101px;
+				left:0;
+            }
+            .picture .background2{
+            	width:330px;
+				height:420px;
+				background:rgba(28,3,108,1);
+				position:absolute;
+				top:101px;
+				right:0;
+            }
+            .picture .word1{
+            	width:190px;
+				height:420px;
+				background:rgba(0,0,0,1);
+				opacity:0.3;
+				position:absolute;
+				top:101px;
+				left:360px;
+
+			}
+			.second{
+				text-decoration:none;
+			}
+			.picture .word2{
+				position:absolute;
+				top:110px;
+				left:380px;
+				width:101px;
+				height:365px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:white;
+				line-height:44px;
+				list-style-type:none;
+			}
+			.picture .word2 a{
+				color:white;
+			}
+			.picture li:hover>a{color:rgba(0,180,255,1);}
+			.picture .word3{
+				position:absolute;
+				top:110px;
+				left:530px;
+				width:101px;
+				height:365px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:white;
+				line-height:44px;
+				list-style-type:none;
+
+			}
+			.picture .good{
+				width:1200px;
+				height:60px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+				position:absolute;
+				top:529px;
+				left:360px;
+			}
+			.picture .good1{
+				font-size:16px;
+				font-family:Microsoft YaHei;
+				color:#00A4FF;
+				position:absolute;
+				top:21px;
+				left:34px;
+			}
+			.picture .good2{
+				font-size:16px;
+				font-family:Microsoft YaHei;
+				position:absolute;
+				top:21px;
+				left:144px;
+				
+			}
+			.picture .good2 a{
+				text-decoration:none;
+				color:black;
+			}
+			.picture .good2 li{
+				float:left;
+				list-style:none;
+			}
+			.picture .good2 .roll{
+				padding-left:27px;
+				padding-right: 27px;
+			}
+			.picture .good3 a{
+				text-decoration:none;
+				color:#00A4FF;;
+			}
+			.picture .good3{
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				position:absolute;
+				top:21px;
+				right:61px;
+			}
+
+			.product{
+				position:relative;
+			}
+
+			.product .rec{
+				width:80px;
+				height:19px;
+				font-size:20px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(73,73,73,1);
+				position:absolute;
+				top:626px;
+				left:360px;
+			}
+			.product .recall{
+				text-decoration:none;
+				width:48px;
+				height:13px;
+				font-size:12px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(165,165,165,1);
+				position:absolute;
+				top:633px;
+				left:1481px;
+			}
+			.product .product1{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:666px;
+				left:360px;
+			}
+
+			.product .product1 .photo1{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.product .product1 .explain-01{
+				width:185px;
+				height:34px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.product .product1 .explain-02{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.product .product1 .explain-03{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+		.product .product2{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:951px;
+				left:360px;
+			}
+
+			.product .product2 .photo1{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.product .product2 .explain-1{
+				width:185px;
+				height:34px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.product .product2 .explain-2{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.product .product2 .explain-3{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+
+
+		.product .product3{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:666px;
+				left:603px;
+			}
+
+			.product .product3 .photo2{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.product .product3 .explain-11{
+				width:185px;
+				height:34px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.product .product3 .explain-12{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.product .product3 .explain-13{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+		.product .product4{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:951px;
+				left:603px;
+			}
+
+			.product .product4 .photo2{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.product .product4 .explain-1{
+				width:185px;
+				height:34px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.product .product4 .explain-2{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.product .product4 .explain-3{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+
+		.product .product5{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:666px;
+				left:846px;
+			}
+
+			.product .product5 .photo3{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.product .product5 .explain-21{
+				width:185px;
+				height:34px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.product .product5 .explain-22{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.product .product5 .explain-23{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+		.product .product6{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:951px;
+				left:846px;
+			}
+
+			.product .product6 .photo3{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.product .product6 .explain-1{
+				width:185px;
+				height:34px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.product .product6 .explain-2{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.product .product6 .explain-3{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+
+		.product .product7{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:666px;
+				left:1084px;
+			}
+
+			.product .product7 .photo4{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.product .product7 .explain-31{
+				width:185px;
+				height:34px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.product .product7 .explain-32{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.product .product7 .explain-33{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+		.product .product8{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:951px;
+				left:1084px;
+			}
+
+			.product .product8 .photo4{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.product .product8 .explain-1{
+				width:185px;
+				height:34px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.product .product8 .explain-2{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.product .product8 .explain-3{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+
+		.product .product9{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:666px;
+				left:1327px;
+			}
+
+			.product .product9 .photo4{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.product .product9 .explain-41{
+				width:185px;
+				height:34px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.product .product9 .explain-42{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.product .product9 .explain-43{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+		.product .product10{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:951px;
+				left:1327px;
+			}
+
+			.product .product10 .photo4{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.product .product10 .explain-1{
+				width:185px;
+				height:34px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.product .product10 .explain-2{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.product .product10 .explain-3{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+
+
+		.QE{
+			position:relative;
+		}
+
+
+		.QE .QE1{
+			width:140px;
+			height:19px;
+			font-size:20px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(73,73,73,1);
+			position:absolute;
+			top:1258px;
+			left:362px;
+		}
+		.QE .QE0{
+			
+			font-size:16px;
+			font-family:Microsoft YaHei;
+			float:left;
+			position:absolute;
+			top:1262px;
+			left:793px;
+		}
+
+		
+		.QE .QE0 a{
+			text-decoration:none;
+			color:#868686;
+		}
+		.QE .QE0 li{
+			list-style-type:none;
+			float:left;
+		}
+		.QE .QE0 li:hover{
+			color:#00A4FF;
+		}
+		.QE .QE0 .list{
+			padding-left:64px;
+		}
+		
+		
+		
+
+		.QE .QE2{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:1298px;
+				left:362px;
+			}
+
+			.QE .QE2 .photo2{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.QE .QE2 .explain-01{
+				width:175px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.QE .QE2 .explain-02{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.QE .QE2 .explain-03{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+
+		.QE .QE3{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:1298px;
+				left:605px;
+			}
+
+			.QE .QE3 .photo3{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.QE .QE3 .explain-11{
+				width:175px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.QE .QE3 .explain-12{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.QE .QE3 .explain-13{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+
+		.QE .QE4{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:1298px;
+				left:848px;
+			}
+
+			.QE .QE4 .photo4{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.QE .QE4 .explain-21{
+				width:175px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.QE .QE4 .explain-22{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.QE .QE4 .explain-23{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+
+		.QE .QE5{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:1298px;
+				left:1090px;
+			}
+
+			.QE .QE5 .photo5{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.QE .QE5 .explain-31{
+				width:175px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.QE .QE5 .explain-32{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.QE .QE5 .explain-33{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+
+		.QE .QE6{
+				width:228px;
+				height:270px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+				position:absolute;
+				top:1298px;
+				left:1334px;
+			}
+
+			.QE .QE6 .photo6{
+				width:228px;
+				height:155px;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.QE .QE6 .explain-41{
+				width:175px;
+				font-size:14px;
+				font-family:Microsoft YaHei;
+				font-weight:400;
+				color:rgba(5,5,5,1);
+				line-height:20px;
+				position:absolute;
+				top:179px;
+				left:23px;
+
+			}
+
+		.QE .QE6 .explain-42{
+			position:absolute;
+			top:231px;
+			left:23px;
+			color:#FF7C2D;
+			font-size:12px;
+		}
+		.QE .QE6 .explain-43{
+			position:absolute;
+			top:231px;
+			left:52px;
+			color:#999999;
+			font-size:12px;
+
+		}
+
+	
+		.man{position:relative;}
+		.man .men{
+			width:80px;
+			height:19px;
+			font-size:20px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(73,73,73,1);
+			position:absolute;
+			top:1603px;
+			left:362px;
+		}
+		.man .JS .JS0{
+			width:471px;
+			height:320px;
+			position:absolute;
+			top:1655px;
+			left:360px;
+			
+		}
+		.man .JS .JS1{
+			font-size:30px;
+			font-family:MicrosoftYaHei-Bold;
+			color:#F9E103;
+			position:absolute;
+			top:1754px;
+			left:384px;
+		}
+
+		.man .JS .JS2{
+			font-size:27px;
+			font-family:MicrosoftYaHei;
+			color:#FFFFFF;
+			position:absolute;
+			top:1792px;
+			left:384px;
+		}
+
+		.man .JS .JS3{
+			width:87px;
+			height:25px;
+			font-size:13px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(249,225,3,1);
+			line-height:20px;
+			border: solid 1px rgba(249,225,3,1);
+			text-align:center;
+			position:absolute;
+			top:1836px;
+			left:387px;
+
+
+		}
+
+		.man .man1 .teacher1{
+			position:absolute;
+			top:1655px;
+			left:845px;
+		}
+		.man .man1 .detail1{
+			width:235px;
+			height:123px;
+			background-color:#000000;
+			background:rgba(0,0,0,0.5);
+			
+			position:absolute;
+			top:1853px;
+			left:841px;
+
+		}
+		.man .man1 .detail2{
+			font-size:18px;
+			font-family:MicrosoftYaHei-Bold;
+			color:#FFFFFF;
+			position:absolute;
+			top:1874px;
+			left:874px;
+		}
+
+		.man .man1 .detail3{
+			font-size:14px;
+			font-family:MicrosoftYaHei-Bold;
+			color:#FFFFFF;
+			position:absolute;
+			top:1878px;
+			left:940px;
+		}
+		.man .man1 .detail4{
+			width:175px;
+			height:53px;
+			font-size:12px;
+			font-family:MicrosoftYaHei-Bold;
+			color:#FFFFFF;
+			position:absolute;
+			top:1904px;
+			left:870px;
+		}
+
+		.man .man2 .teacher2{
+			position:absolute;
+			top:1655px;
+			left:1088px;
+		}
+		.man .man2 .detail1{
+			width:235px;
+			height:123px;
+			background-color:#000000;
+			background:rgba(0,0,0,0.5);
+			
+			position:absolute;
+			top:1853px;
+			left:1084px;
+
+		}
+		.man .man2 .detail2{
+			font-size:18px;
+			font-family:MicrosoftYaHei-Bold;
+			color:#FFFFFF;
+			position:absolute;
+			top:1874px;
+			left:1116px;
+		}
+
+		.man .man2 .detail3{
+			font-size:14px;
+			font-family:MicrosoftYaHei-Bold;
+			color:#FFFFFF;
+			position:absolute;
+			top:1878px;
+			left:1182px;
+		}
+		.man .man2 .detail4{
+			width:175px;
+			height:53px;
+			font-size:12px;
+			font-family:MicrosoftYaHei-Bold;
+			color:#FFFFFF;
+			position:absolute;
+			top:1904px;
+			left:1113px;
+		}
+
+		.man .man3 .teacher3{
+			position:absolute;
+			top:1655px;
+			left:1331px;
+		}
+		.man .man3 .detail1{
+			width:235px;
+			height:123px;
+			background-color:#000000;
+			background:rgba(0,0,0,0.5);
+			
+			position:absolute;
+			top:1853px;
+			left:1327px;
+
+		}
+		.man .man3 .detail2{
+			font-size:18px;
+			font-family:MicrosoftYaHei-Bold;
+			color:#FFFFFF;
+			position:absolute;
+			top:1874px;
+			left:1359px;
+		}
+
+		.man .man3 .detail3{
+			font-size:14px;
+			font-family:MicrosoftYaHei-Bold;
+			color:#FFFFFF;
+			position:absolute;
+			top:1878px;
+			left:2020px;
+		}
+		.man .man3 .detail4{
+			width:175px;
+			height:53px;
+			font-size:12px;
+			font-family:MicrosoftYaHei-Bold;
+			color:#FFFFFF;
+			position:absolute;
+			top:1904px;
+			left:1356px;
+		}
+
+		.note{position:relative;}
+		.note .note1{
+			width:1917px;
+			height:417px;
+			background:rgba(255,255,255,1);
+			position:absolute;
+			top:2048px;
+			left:0px;
+		}
+		.note .note2{
+			width:143px;
+			height:36px;
+			position:absolute;
+			top:2172px;
+			left:380px;
+		}
+		.note .note3{
+			width:380px;
+			height:12px;
+			font-size:12px;
+			font-family:SimSun;
+			font-weight:400;
+			color:rgba(102,102,102,1);
+			line-height:18px;
+			position:absolute;
+			top:2243px;
+			left:382px;
+		}
+		.note .note4{
+			font-size:16px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(0,164,255,1);
+			line-height:36px;
+			border:solid 1px rgba(0,164,255,1);
+			width:120px;
+			height:36px;
+			text-align:center;
+			position:absolute;
+			top:2288px;
+			left:381px;
+		}
+		.note .note5{
+			
+			font-size:16px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(51,51,51,1);
+			line-height:21px;
+			position:absolute;
+			top:2177px;
+			left:1026px;
+		}
+		.note .note6{
+			font-size:12px;
+			font-family:SimSun;
+			font-weight:400;
+			color:rgba(51,51,51,1);
+			line-height:21px;
+			list-style:none;
+			position:absolute;
+			top:2209px;
+			left:1027px;
+		}
+		.note .note7{
+			font-size:16px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(51,51,51,1);
+			line-height:21px;
+			position:absolute;
+			top:2178px;
+			left:1251px;
+		}
+
+		.note .note8{
+			
+			font-size:12px;
+			font-family:SimSun;
+			font-weight:400;
+			color:rgba(51,51,51,1);
+			line-height:21px;
+			list-style:none;
+			position:absolute;
+			top:2209px;
+			left:1251px;
+		}
+		.note .note9{
+			font-size:16px;
+			font-family:Microsoft YaHei;
+			font-weight:400;
+			color:rgba(51,51,51,1);
+			line-height:21px;
+			position:absolute;
+			top:2178px;
+			left:1467px;
+		}
+		.note .note10{
+			font-size:12px;
+			font-family:SimSun;
+			font-weight:400;
+			color:rgba(51,51,51,1);
+			line-height:21px;
+			list-style:none;
+			position:absolute;
+			top:2209px;
+			left:1469px;
+		}
+
+
+        </style>
+    </head>
+    <body>
+    	<div class="all">
+    	<div class="nav" clear>
+    		<span class="xueli1"> 
+    			雪梨在线
+    		</span>
+    		<ul class="group">
+    			<li class="xueli2"><a href="#" class="first">首页</a></li>
+    			<li class="xueli3"><a href="#" class="first">课程</a></li>
+    			<li class="xueli4"><a href="#" class="first">职业规划</a></li>
+    		</ul>
+    		<form class="form">
+    			<input type="text" placeholder="输入关键词" class="reash">
+    			<input type="button" class="submit">
+    		</form>
+    		<a href="#"><span class="personal">个人中心</span></a>
+
+    	</div>
+
+    	<div class="picture">
+    		<img src="img//banner2.png" alt="background" class="background">
+    		<div class="background1"></div>
+    		<div class="background2"></div>
+    		<div class="word1"></div>
+    		<ul class="word2">
+    			<li><a href="#" class="second">前端开发</a></li>
+    			<li><a href="#" class="second">后端开发</a></li>
+    			<li><a href="#" class="second">移动开发</a></li>
+    			<li><a href="#" class="second">人工智能</a></li>
+    			<li><a href="#" class="second">商业预测</a></li>
+    			<li><a href="#" class="second">云计算&大数据</a></li>
+    			<li><a href="#" class="second">运维&从测试</a></li>
+    			<li><a href="#" class="second">UI设计</a></li>
+    			<li><a href="#" class="second">产品</a></li>	
+    		</ul>
+    		<ul class="word3">
+    			<li>></li>
+    			<li>></li>
+    			<li>></li>
+    			<li>></li>
+    			<li>></li>
+    			<li>></li>
+    			<li>></li>
+    			<li>></li>
+    			<li>></li>
+    		</ul>
+    		<div class="good">
+    			<div class="good1">
+    				精品推荐
+    			</div>
+    			<div class="good2">
+    				<ul>
+    					<li class="roll">|</li>
+    					<a href="#"><li>JQuery</li></a>
+    					<li class="roll">|</li>
+    					<a href="#"><li>Spark</li></a>
+    					<li class="roll">|</li>
+    					<a href="#"><li>MySQL</li></a>
+    					<li class="roll">|</li>
+    					<a href="#"><li>JavaWeb</li></a>
+    					<li class="roll">|</li>
+    					<a href="#"><li>MySQL</li></a>
+    					<li class="roll">|</li>
+    					<a href="#"><li>JavaWeb</li></a>
+
+    				</ul>
+    				
+    			</div>
+    			<div class="good3">
+    				<a href="#">修改兴趣</a>
+    			</div>
+    		</div>
+    	</div>
+
+    	<div class="product">
+    		<div class="rec">
+    			精品推荐
+    		</div>
+    		<a href="#" class="recall">查看全部</a>
+    		<a href="#">
+    			<div class="product1">
+    			<img src="img//图层 133.png" alt="1" class="photo1">
+    			<div class="explain-01">
+    				Think PHP 5.0 博客系统实战项目演练
+    			</div>
+    			<div class="explain-02">
+    				高级
+    			</div>
+    			<div class="explain-03">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+    		<a href="#">
+    		<div class="product2">
+    			<img src="img//图层 133.png" alt="1" class="photo1">
+    			<div class="explain-1">
+    				Think PHP 5.0 博客系统实战项目演练
+    			</div>
+    			<div class="explain-2">
+    				高级
+    			</div>
+    			<div class="explain-3">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+
+    		<a href="#">
+    		<div class="product3">
+    			<img src="img//图层 135.png" alt="2" class="photo2">
+    			<div class="explain-11">
+    				Android 网络图片加载框架详解
+    			</div>
+    			<div class="explain-12">
+    				高级
+    			</div>
+    			<div class="explain-13">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+    		<a href="#">
+    		<div class="product4">
+    			<img src="img//图层 135.png" alt="2" class="photo2">
+    			<div class="explain-1">
+    				Android 网络图片加载框架详解
+    			</div>
+    			<div class="explain-2">
+    				高级
+    			</div>
+    			<div class="explain-3">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+
+    		<a href="#">
+    		<div class="product5">
+    			<img src="img//图层 136.png" alt="3" class="photo3">
+    			<div class="explain-21">
+    				Angular 2 最新框架+主流技术+项目实战
+    			</div>
+    			<div class="explain-22">
+    				高级
+    			</div>
+    			<div class="explain-23">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+    		<a href="#">
+    		<div class="product6">
+    			<img src="img//图层 136.png" alt="3" class="photo3">
+    			<div class="explain-1">
+    				Angular 2 最新框架+主流技术+项目实战
+    			</div>
+    			<div class="explain-2">
+    				高级
+    			</div>
+    			<div class="explain-3">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+
+    		<a href="#">
+    		<div class="product7">
+    			<img src="img//图层 137(1).png" alt="4" class="photo4">
+    			<div class="explain-31">
+    				Android Hybrid APP开发实战 H5+原生！
+    			</div>
+    			<div class="explain-32">
+    				高级
+    			</div>
+    			<div class="explain-33">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+
+    		<a href="#">
+    		<div class="product8">
+    			<img src="img//图层 137(1).png" alt="4" class="photo4">
+    			<div class="explain-1">
+    				Android Hybrid APP开发实战 H5+原生！
+    			</div>
+    			<div class="explain-2">
+    				高级
+    			</div>
+    			<div class="explain-3">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+
+    		<a href="#">
+    		<div class="product9">
+    			<img src="img//图层 137(1).png" alt="4" class="photo4">
+    			<div class="explain-41">
+    				Android Hybrid APP开发实战 H5+原生！
+    			</div>
+    			<div class="explain-42">
+    				高级
+    			</div>
+    			<div class="explain-43">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+    		<a href="#">
+    		<div class="product10">
+    			<img src="img//图层 137(1).png" alt="4" class="photo4">
+    			<div class="explain-1">
+    				Android Hybrid APP开发实战 H5+原生！
+    			</div>
+    			<div class="explain-2">
+    				高级
+    			</div>
+    			<div class="explain-3">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+    	</div>
+
+    	<div class="QE">
+    		<div class="QE1">前端开发工程师</div>
+    		<ul class="QE0">
+    			<a href="#"><li>热门</li></a>
+    			<a href="#"><li class="list">初级</li></a>
+    			<a href="#"><li class="list">中级</li></a>
+    			<a href="#"><li class="list">高级</li></a>
+    		</ul>
+    		
+
+    		<a href="#">
+    		<div class="QE2">
+    			<img src="img//图层 142.png" alt="2" class="photo2">
+    			<div class="explain-01">
+    				微软人工智能-数据分析平台
+    			</div>
+    			<div class="explain-02">
+    				高级
+    			</div>
+    			<div class="explain-03">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+
+    		<a href="#">
+    		<div class="QE3">
+    			<img src="img//图层 144.png" alt="3" class="photo3">
+    			<div class="explain-11">
+    				Unity Profiler入门
+    			</div>
+    			<div class="explain-12">
+    				高级
+    			</div>
+    			<div class="explain-13">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+
+    		<a href="#">
+    		<div class="QE4">
+    			<img src="img//图层 143.png" alt="4" class="photo4">
+    			<div class="explain-21">
+    				Cocos2d-x 引擎源码中的纹理优化
+    			</div>
+    			<div class="explain-22">
+    				高级
+    			</div>
+    			<div class="explain-23">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+
+    		<a href="#">
+    		<div class="QE5">
+    			<img src="img//图层 146.png" alt="5" class="photo5">
+    			<div class="explain-31">
+    				Kami2首页界面切换效果
+    			</div>
+    			<div class="explain-32">
+    				高级
+    			</div>
+    			<div class="explain-33">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+
+    		<a href="#">
+    		<div class="QE6">
+    			<img src="img//图层 145.png" alt="6" class="photo6">
+    			<div class="explain-41">
+    				Android Hybrid APP开发实战 H5+原生！
+    			</div>
+    			<div class="explain-42">
+    				高级
+    			</div>
+    			<div class="explain-43">
+    				• 1125人在学习
+    			</div>
+    		</div>
+    		</a>
+    	</div>
+
+    	<div class="man">
+    		<div class="men">
+    			牛人推荐
+    		</div>
+    		<div class="JS">
+    			<img src="img//图层 149.png" alt="JS" class="JS0">
+    			<div class="JS1">毕业季</div>
+    			<div class="JS2">带你华丽转身</div>
+    			<a href="#" class="JS3">点击查看</a>
+    		</div>
+    		<a href="#">
+    			<div class="man1">
+    			<img src="img//闻老师.png" alt="man1" class="teacher1">
+    			<div class="detail1"></div>
+    			<div class="detail2">闻老师</div>
+    			<div class="detail3">大数据</div>
+    			<div class="detail4">高级互联网软件工程师，曾担任某物流公司CRM开发团队TL。多年JAVAEE、大数据领域研发……</div>
+    			</div>
+    		</a>
+    		<a href="#">
+    			<div class="man2">
+    			<img src="img//汪老师.png" alt="man2" class="teacher2">
+    			<div class="detail1"></div>
+    			<div class="detail2">汪老师</div>
+    			<div class="detail3">前端</div>
+    			<div class="detail4">高级软件架构师，全栈开发，多年大型项目管理经验。对Web Components、Node.js……
+    			</div>
+    			</div>
+    		</a>
+    		<a href="#">
+    			<div class="man3">
+    			<img src="img//江老师).png" alt="man3" class="teacher3">
+    			<div class="detail1"></div>
+    			<div class="detail2">江老师</div>
+    			<div class="detail3">前端</div>
+    			<div class="detail4">多年软件开发经验和教学经验，精通html，css，js,asp.net等编程语言和数据库系统……
+    			</div>
+    			</div>
+    		</a>
+    	</div>
+
+    	<div class="note">
+    		<div class="note1"></div>
+    		<img src="img//雪梨在线.png" alt="image" class="note2">
+    		<div class="note3">致力于普及中国最好的教育,与中国一流大学和机构合作提供在线课程。</div>
+    		<a href="#"><div class="note4">下载APP</div></a>
+    		<div class="note5">关于雪梨网</div>
+    		<a href="#"><ul class="note6">
+    			<li>关于</li>
+    			<li>管理团队</li>
+    			<li>工作机会</li>
+    			<li>客户服务</li>
+    			<li>帮助</li>
+    		</ul>
+    	</a>
+    		<div class="note7">新手指南</div>
+    		<a href="#"><ul class="note8">
+    			<li>如何注册</li>
+    			<li>如何选课</li>
+    			<li>如何拿到毕业证 </li>
+    			<li>学分是什么</li>
+    			<li>考试未通过怎么办</li>
+    		</ul>
+    	</a>
+    		<div class="note9">合作伙伴</div>
+    		<a href="#"><ul class="note10">
+    			<li>合作机构 </li>
+    			<li>合作导师</li>
+    		</ul>
+    	</a>
+
+    	</div>
+    </div>
+    </body>
+</html>
